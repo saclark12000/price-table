@@ -1,0 +1,61 @@
+body {
+    background-color: #DADFF7;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  nav {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 100vh;
+    background-color: #B74F6F;
+  }
+  
+  .pricing-table {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pricing-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A0C1D1;
+    border: 2px solid #232C33;
+    border-radius: 2em;
+    max-width: 300px;
+    min-width: 250px;
+    padding: .75em;
+    margin: 1.5rem;
+  }
+  
+  .pricing-plan .pricing-header {
+    font-size: 2rem;
+    font-family: 'Concert One', cursive;
+    color: #232C33;
+  }
+  
+  .pricing-plan .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8em;
+    color: #232C33;
+  }
+  .pricing-plan .pricing-button {
+      color: #F2F3AE;
+  }
+  
+  /* https://coolors.co/5a7d7c-dadff7-232c33-a0c1d1-b5b2c2 */
